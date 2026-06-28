@@ -11,5 +11,19 @@ address += ', Apartment 4B'
 employee_age = 28
 employee_info = full_name + ' is ' + str(employee_age) + ' years old'
 print(employee_info)
+position = 'Data Analyst'
+salary = 75000
+employee_card = f'Employee: {full_name} | Age: {employee_age} | Position: {position} | Salary: ${salary}'
+<br>
+print(employee_card)
+<br>
+employee_code = 'DEV-2026-JD-001'
+department = employee_code[0:3]
+print(department)
+year_code = employee_code[4:8]
+print(year_code)
+initials = employee_code[9:11]
+print(initials)
+
 
 
